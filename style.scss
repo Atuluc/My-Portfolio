@@ -1,0 +1,60 @@
+
+@import "nav";
+@import "box-home";
+@import "box-work";
+@import "resume";
+@import "footer";
+
+
+
+
+*{
+    box-sizing: border-box;
+}
+
+body{ 
+    margin: 0;
+    background-color: rgba(241, 236, 236, 0.473);
+    color:rgb(128, 122, 122);
+    font-family: 'Alkatra', cursive;
+}
+
+.dark-mode {
+    background-color: rgb(59, 57, 57);
+    
+  }
+
+
+/*Main Container page hero*/
+
+.main-hero {
+    margin: 70px auto;
+   
+    max-width:1000px;
+    background-color: white;
+    box-shadow: 1px 1px 10px 0px black;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.dark-mode .main-hero{
+    background-color: rgba(36, 34, 34);
+    
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

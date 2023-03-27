@@ -1,0 +1,232 @@
+#box2-work{
+    height: 800px;
+    width:810px;
+    border: 1px solid;
+    margin-left:150px;
+}
+
+
+
+.workbox-head{
+    height:200px;
+    width:800px;
+    border:1px solid green;
+    margin-left: 150px;
+    
+}
+
+.workbox-head h1{
+    font-size: 2rem ;
+    margin-bottom: 0px;
+}
+
+.workbox-head p{
+    font-size: large ;
+    margin: 0px;
+}
+
+.workbox-head h2{
+    text-decoration: overline solid red 4px;
+    margin-bottom: 0px;
+}
+
+.workbox{
+    height: 790px;
+    width:810px;
+    border: 1px solid red;
+    display:flex;
+    margin: 5px auto;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+
+ .card1 {
+    height: 210px;
+    width:390px;
+    border: 1px solid; 
+    border-radius: 7px;
+    background-image: url(/images/aspire\ -dreams.jpg);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    overflow: hidden;
+}
+
+.card1-text{ 
+    height:0;
+    width:100%;
+    background: rgba(146, 7, 233, 0.8);
+    color:white;
+   
+    transition: all 1s ease-in-out;
+    transform: translateY(20px);
+}
+
+
+.card1:hover .card1-text{
+    display: block;
+    height:100px;
+    transform: translateY(0px);
+ 
+}
+
+
+
+.card2 {
+    height: 210px;
+    width:390px;
+    border: 1px solid; 
+    background-image: url(/images/celebrity.png);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    overflow: hidden;
+
+   
+}
+.card2-text{ 
+    height:0;
+    width:100%;
+    background: rgba(128, 128, 128, 0.568);
+   
+    transition: all 1s ease-in-out;
+    transform: translateY(20px);
+}
+
+
+.card2:hover .card2-text{
+    display: block;
+    height:100px;
+    transform: translateY(0px);
+ 
+}
+
+.card3 {
+    height: 210px;
+    width:390px;
+    border: 1px solid; 
+    background-image: url(/images/spacer3d.jpg);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    overflow: hidden;
+}
+
+.card3-text{ 
+    height:0;
+    width:100%;
+    background: rgba(128, 128, 128, 0.568);
+   
+    transition: all 1s ease-in-out;
+    transform: translateY(20px);
+}
+
+
+.card3:hover .card3-text{
+    display: block;
+    height:100px;
+    transform: translateY(0px);
+ 
+}
+
+.card4 {
+    height: 210px;
+    width:390px;
+    border: 1px solid; 
+    background-image: url(/images/ecommerce1.jpg);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    overflow: hidden;
+    
+}
+
+.card4-text{ 
+    height:0;
+    width:100%;
+    background: rgba(128, 128, 128, 0.568);
+   
+    transition: all 1s ease-in-out;
+    transform: translateY(20px);
+}
+
+
+.card4:hover .card4-text{
+    display: block;
+    height:100px;
+    transform: translateY(0px);
+ 
+}
+
+.card5 {
+    height: 210px;
+    width:390px;
+    border: 1px solid; 
+    background-image: url(/images/circlelogo.jpg);
+    background-size: cover;
+    background-position:center;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    overflow: hidden;
+  
+}
+
+.card5-text{ 
+    height:0;
+    width:100%;
+    background: rgba(128, 128, 128, 0.568);
+   
+    transition: all 1s ease-in-out;
+    transform: translateY(20px);
+}
+
+
+.card5:hover .card5-text{
+    display: block;
+    height:100px;
+    transform: translateY(0px);
+ 
+}
+
+.card6 {
+    height: 210px;
+    width:390px;
+    border: 1px solid; 
+    background-image: url(/images/resto.jpg);
+    background-size: 390px 210px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    overflow: hidden;
+}
+
+.card6-text{ 
+    height:0;
+    width:100%;
+    background: rgba(128, 128, 128, 0.568);
+   
+    transition: all 1s ease-in-out;
+    transform: translateY(20px);
+}
+
+.card6:hover .card6-text{
+    display: block;
+    height:100px;
+    transform: translateY(0px);
+ 
+}
+
+
+
+.button-resume{
+    height:50px;
+    width:100px;
+    background-color: tomato;
+    color:black;
+}
