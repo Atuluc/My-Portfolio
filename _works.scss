@@ -1,39 +1,43 @@
-#box2-work{
-    height: 800px;
+.box2-work{
+    height: 820px;
     width:810px;
-    border: 1px solid;
+    /*border: 1px solid;*/
     margin-left:150px;
+    box-shadow: 0px 2px 0px whitesmoke;
+    border-radius: 10px;
 }
 
 
 
-.workbox-head{
+#workbox-head{
     height:200px;
     width:800px;
-    border:1px solid green;
+    /*border:1px solid green;*/
     margin-left: 150px;
     
 }
 
-.workbox-head h1{
+#workbox-head h1{
     font-size: 2rem ;
     margin-bottom: 0px;
 }
 
-.workbox-head p{
+#workbox-head p{
     font-size: large ;
     margin: 0px;
+   
 }
 
-.workbox-head h2{
+#workbox-head h2{
     text-decoration: overline solid red 4px;
-    margin-bottom: 0px;
+    margin-bottom: 2px;
+    margin-top: 40px;
 }
 
 .workbox{
-    height: 790px;
+    height: 700px;
     width:810px;
-    border: 1px solid red;
+    /*border: 1px solid red;*/
     display:flex;
     margin: 5px auto;
     flex-wrap: wrap;
@@ -42,11 +46,11 @@
 }
 
  .card1 {
-    height: 210px;
+    height: 190px;
     width:390px;
-    border: 1px solid; 
+    /*border: 1px solid; */
     border-radius: 7px;
-    background-image: url(/images/aspire\ -dreams.jpg);
+    background-image: url(./images/aspire\ -dreams.jpg);
     background-size: cover;
     display: flex;
     flex-direction: column;
@@ -57,10 +61,10 @@
 .card1-text{ 
     height:0;
     width:100%;
-    background: rgba(146, 7, 233, 0.8);
+    background:rgb(55, 108, 144, 0.9);
     color:white;
    
-    transition: all 1s ease-in-out;
+    transition: all 0.3s ease-in-out;
     transform: translateY(20px);
 }
 
@@ -75,10 +79,11 @@
 
 
 .card2 {
-    height: 210px;
+    height: 190px;
     width:390px;
-    border: 1px solid; 
-    background-image: url(/images/celebrity.png);
+    /*border: 1px solid; */
+    border-radius: 7px;
+    background-image: url(./images/celebrity.png);
     background-size: cover;
     display: flex;
     flex-direction: column;
@@ -90,9 +95,9 @@
 .card2-text{ 
     height:0;
     width:100%;
-    background: rgba(128, 128, 128, 0.568);
-   
-    transition: all 1s ease-in-out;
+    background:rgb(55, 108, 144, 0.9);
+    color:white;
+    transition: all 0.3s ease-in-out;
     transform: translateY(20px);
 }
 
@@ -105,10 +110,11 @@
 }
 
 .card3 {
-    height: 210px;
+    height: 190px;
     width:390px;
-    border: 1px solid; 
-    background-image: url(/images/spacer3d.jpg);
+    /*border: 1px solid; */
+   border-radius: 7px;
+    background-image: url(./images/spacer3d.jpg);
     background-size: cover;
     display: flex;
     flex-direction: column;
@@ -119,9 +125,9 @@
 .card3-text{ 
     height:0;
     width:100%;
-    background: rgba(128, 128, 128, 0.568);
-   
-    transition: all 1s ease-in-out;
+    background:rgb(55, 108, 144, 0.9);
+    color:white;
+    transition: all 0.3s ease-in-out;
     transform: translateY(20px);
 }
 
@@ -134,10 +140,11 @@
 }
 
 .card4 {
-    height: 210px;
+    height: 190px;
     width:390px;
-    border: 1px solid; 
-    background-image: url(/images/ecommerce1.jpg);
+    /*border: 1px solid; */
+    border-radius: 7px;
+    background-image: url(./images/ecommerce1.jpg);
     background-size: cover;
     display: flex;
     flex-direction: column;
@@ -149,9 +156,9 @@
 .card4-text{ 
     height:0;
     width:100%;
-    background: rgba(128, 128, 128, 0.568);
-   
-    transition: all 1s ease-in-out;
+    background:rgb(55, 108, 144, 0.9);
+    color:white;
+    transition: all 0.3s ease-in-out;
     transform: translateY(20px);
 }
 
@@ -164,10 +171,11 @@
 }
 
 .card5 {
-    height: 210px;
+    height: 190px;
     width:390px;
-    border: 1px solid; 
-    background-image: url(/images/circlelogo.jpg);
+    /*border: 1px solid; */
+    border-radius: 7px;
+    background-image: url(./images/circlelogo.jpg);
     background-size: cover;
     background-position:center;
     display: flex;
@@ -180,9 +188,9 @@
 .card5-text{ 
     height:0;
     width:100%;
-    background: rgba(128, 128, 128, 0.568);
-   
-    transition: all 1s ease-in-out;
+    background:rgb(55, 108, 144, 0.9);
+    color:white;
+    transition: all 0.3s ease-in-out;
     transform: translateY(20px);
 }
 
@@ -195,10 +203,11 @@
 }
 
 .card6 {
-    height: 210px;
+    height: 190px;
     width:390px;
-    border: 1px solid; 
-    background-image: url(/images/resto.jpg);
+    /*border: 1px solid; */
+    border-radius: 7px;
+    background-image: url(./images/resto.jpg);
     background-size: 390px 210px;
     display: flex;
     flex-direction: column;
@@ -209,9 +218,9 @@
 .card6-text{ 
     height:0;
     width:100%;
-    background: rgba(128, 128, 128, 0.568);
-   
-    transition: all 1s ease-in-out;
+    background:rgb(55, 108, 144, 0.9);
+    color:white;
+    transition: all 0.3s ease-in-out;
     transform: translateY(20px);
 }
 
@@ -222,11 +231,23 @@
  
 }
 
-
-
-.button-resume{
+.button-work-to-home {
     height:50px;
     width:100px;
-    background-color: tomato;
-    color:black;
+    background-color: rgb(160, 151, 150);
+    border-radius: 10px;
+    margin-left: 350px;
+    margin-top:50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 2px 3px 4px rgb(230, 62, 62);
+}
+
+.button-work-to-home a{
+    text-decoration: none;
+    font-size: larger;
+    color: black;
+   
+
 }
